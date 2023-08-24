@@ -1,0 +1,199 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.laptop-screen-content{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 5px 0;
+    margin: 100px 25%;
+    
+}
+
+.container{
+    padding:20px;
+}
+
+
+ /* Add custom styling for the list */
+ ul.icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icon-list li {
+    margin-bottom: 10px;
+    display: flex; /* To align the icon and text horizontally */
+    align-items: center; /* To vertically center the icon and text */
+}
+
+ul.icon-list i {
+    font-size: 20px; /* Adjust the icon size */
+    color: #ff2400; /* Adjust the icon color */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+.icon-list2{
+    padding: 0;
+    margin:0;
+    font-size: 30px;
+    color: #ff2400
+}
+
+/* .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="email"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button[type="submit"] {
+    background-color:hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+}
+
+h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2{
+    color: hsl(234, 29%, 20%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p{
+    color: hsl(234, 29%, 20%);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.svg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter{
+    padding: 2rem 3rem;
+}
+
+/* Sign up  */
+  /* Styles for phone screens */
+  @media (max-width: 576px) {
+       
+    .tablet-screen-content,
+    .laptop-screen-content {
+        display: none;
+    }
+    
+    .phone-screen-content {
+        display: block;
+    }
+}
+
+/* Styles for tablet screens and larger */
+@media (min-width: 577px) {
+    .phone-screen-content {
+        display: none;
+    }
+    
+    .tablet-screen-content,
+    .laptop-screen-content {
+        display: block;
+    }
+}
+
+/* Success Message */
+
+@media (max-width: 576px) {
+       
+    .tablet-screen-content2,
+    .laptop-screen-content2 {
+        display: none;
+    }
+    
+    .phone-screen-content2 {
+        display: block;
+    }
+}
+
+/* Styles for tablet screens and larger */
+@media (min-width: 577px) {
+    .phone-screen-content2 {
+        display: none;
+    }
+    
+    .tablet-screen-content2,
+    .laptop-screen-content2 {
+        display: block;
+    }
+}
+
+
+
+.phone-svg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin:0;
+}
+
+.phone-screen-content{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 0px 0;
+    margin: 0px 11.3;
+}
+
+.success-card{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.phone-screen-content2{
+    background-color: hsl(0, 0%, 100%);
+    padding: 30% 10% 5% 10%;
+    margin: 0px 
+}
+
+.phone-screen-content2 .card-text{
+    padding-bottom: 80%;
+}
+.phone-screen-content2 .icon-list2{
+    font-size: 70px;
+}
+.phone-screen-content2 #submitBtn {
+    width: 100%; 
+    height: 60px;
+    border-radius: 10px;
+}
