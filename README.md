@@ -32,7 +32,7 @@ The challenge required implementing a newsletter sign-up form with a success mes
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/Mungai47/Newsletter-Sign-up-Form-with-Success-Message)
 - [Live Site URL](https://your-live-site-url.com)
 
 ## Built With
@@ -43,6 +43,7 @@ The challenge required implementing a newsletter sign-up form with a success mes
 - CSS Grid
 - Responsive design principles
 - Vanilla JavaScript
+- Bootstrap
 
 ## What I Learned
 
@@ -74,6 +75,6 @@ In future projects, I plan to focus on:
 
 ### Author
 
-Joseph Mburu Mungai
-Frontend Mentor - @Josephmungai99
-Twitter - @joseph_mungai_
+- Joseph Mungai.
+- Frontend Mentor - @Josephmungai99
+- Twitter - @joseph_mungai_
