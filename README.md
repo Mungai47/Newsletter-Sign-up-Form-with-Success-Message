@@ -33,7 +33,7 @@ The challenge required implementing a newsletter sign-up form with a success mes
 ### Links
 
 - [Solution URL](https://github.com/Mungai47/Newsletter-Sign-up-Form-with-Success-Message)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://mungai47.github.io/Newsletter-Sign-up-Form-with-Success-Message/)
 
 ## Built With
 

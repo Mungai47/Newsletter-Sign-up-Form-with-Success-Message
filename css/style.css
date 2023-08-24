@@ -17,21 +17,20 @@ body{
 
 
  /* Add custom styling for the list */
- ul.icon-list {
+ul.icon-list {
     list-style: none;
     padding-left: 0;
 }
 
 ul.icon-list li {
     margin-bottom: 10px;
-    display: flex; /* To align the icon and text horizontally */
-    align-items: center; /* To vertically center the icon and text */
+    display: flex; 
+    align-items: center;
 }
-
 ul.icon-list i {
-    font-size: 20px; /* Adjust the icon size */
-    color: #ff2400; /* Adjust the icon color */
-    margin-right: 10px; /* Add spacing between icon and text */
+    font-size: 20px;
+    color: #ff2400; 
+    margin-right: 10px; 
 }
 .icon-list2{
     padding: 0;
@@ -40,14 +39,6 @@ ul.icon-list i {
     color: #ff2400
 }
 
-/* .form-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-} */
 .form-group {
     margin-bottom: 15px;
 }
@@ -170,8 +161,8 @@ p{
 
 .success-card{
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
+    justify-content: center; 
+    align-items: center; 
     padding-top: 15%;
     padding-bottom: 15%;
 }
@@ -197,3 +188,4 @@ p{
     height: 60px;
     border-radius: 10px;
 }
+
